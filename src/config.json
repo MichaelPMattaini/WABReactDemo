@@ -1,0 +1,7 @@
+{
+  "name": "My React Widget",
+  "layerCollection": [
+    { "name": "offices", "url": "https://services.arcgis.com/1nZgnYZACdwzrFHH/arcgis/rest/services/geographIT_Offices/FeatureServer/0" },
+    { "name": "counties", "url": "https://services.arcgis.com/1nZgnYZACdwzrFHH/ArcGIS/rest/services/PaCounty2017_01/FeatureServer/0" }
+  ]
+}

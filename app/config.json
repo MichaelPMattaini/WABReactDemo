@@ -1,0 +1,150 @@
+{
+  "theme": {
+    "name": "LaunchpadTheme",
+    "styles": [
+      "style2",
+      "default"
+    ],
+    "version": "2.0.1"
+  },
+  "portalUrl": "http://geoit.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "",
+  "geometryService": "http://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+        "position": {
+          "bottom": 10,
+          "height": 40,
+          "relativeTo": "map",
+          "zIndex": 0
+        },
+        "version": "2.0.1",
+        "id": "themes_LaunchpadTheme_widgets_AnchorBarController_Widget_18",
+        "name": "AnchorBarController",
+        "label": "Anchor Bar Controller"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "45d9dea5f9ce4303ac4469fe82f82b0a",
+    "mapOptions": {
+      "extent": {
+        "xmin": -8388019.249579016,
+        "ymin": 4849162.172270128,
+        "xmax": -8329927.1080823615,
+        "ymax": 4883023.775800415,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "http://geoit.maps.arcgis.com/"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "name": "MyReactWidget",
+        "label": "My React Widget",
+        "version": "2.0.1",
+        "uri": "widgets/MyReactWidget/Widget",
+        "index": 8,
+        "id": "widgets_MyReactWidget_Widget_38",
+        "openAtStart": true
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+          "position": {
+            "bottom": 0,
+            "height": 40,
+            "width": "100%",
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.0.1"
+        },
+        {
+          "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "height": 46,
+            "relativeTo": "map"
+          },
+          "version": "2.0.1"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel"
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#2176d2",
+    "backgroundImage": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 449,
+      "height": 126
+    },
+    "loadingGif": {
+      "visible": false,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.0.1",
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  }
+}
