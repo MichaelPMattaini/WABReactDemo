@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable arrow-body-style */
 
-// Load Extrenal Libs
+// Load External Libs
 require({
   paths: {
     react:
