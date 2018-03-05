@@ -21,7 +21,7 @@ Esri Web AppBuilder Widget development environment using React, ES6 Modules, and
 
 ## Usage
 
-Fork or download this repo or download [the latest release](https://github.com/EBAEngineering/WAB-Widget-Template/releases/tag/v1.0).
+Fork or download this repo.
 
 ### Install Node and Yarn
 
